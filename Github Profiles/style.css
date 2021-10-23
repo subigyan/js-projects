@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #2a2a72;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.user-form {
+    width: 100%;
+    max-width: 700px;
+}
+
+.search-input {
+    width: 100%;
+    display: block;
+    background-color: #4c2885;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: inherit;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.search-input::placeholder {
+    color: white;
+    opacity: 0.5;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+#main {
+    margin: 2rem 1rem;
+}
+
+.card {
+    max-width: 800px;
+    background-color: #4c2885;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.user-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid #2a2a2a;
+}
+
+.info-container {
+    color: #eee;
+    margin-left: 1rem;
+}
+
+/* .info-container * {
+  border: 1px solid black;
+} */
+
+.info-container h2 {
+    margin: 0;
+}
+
+.info-container ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.info-container ul li {
+    display: flex;
+    align-items: center;
+}
+
+/* rem => root size => usually 16px */
+
+.info-container ul strong {
+    margin-left: 4px;
+    font-size: 0.8rem;
+}
+
+.repo {
+    text-decoration: none;
+    color: white;
+    background-color: #2a2a72;
+    margin-right: 10px;
+    padding: 3px 10px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+@media (max-width: 500px) {
+    .card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .user-form {
+        max-width: 400px;
+    }
+}
