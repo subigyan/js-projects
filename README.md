@@ -1,10 +1,13 @@
-#JavaScript Projects
+# JavaScript Projects
 
-##Github Profiles
+## Github Profiles
+
 App that displays profile information of entered username
 
-##Kanye
+## Kanye Quotes
+
 Get a random Kanye West Quote
 
-##Pokedex
+## Pokedex
+
 Displays the information of 150 pokemons. Uses async function to display all the information simultaneously.
