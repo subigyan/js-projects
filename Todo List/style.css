@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: aliceblue;
+    color: #444;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(179, 131, 226);
+    font-size: 100px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+form {
+    max-width: 100%;
+    width: 450px;
+}
+
+form input {
+    width: 100%;
+    font-size: 20px;
+    padding: 1rem 1.5rem;
+    border: none;
+    transition: box-shadow 1s ease-out;
+}
+
+input::placeholder {
+    opacity: 0.5;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: blue 0px 0px 0px 2px inset,
+        rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px,
+        rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px,
+        rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px,
+        rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0px;
+}
+
+.todo-list li {
+    margin-top: 10px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: white;
+    cursor: pointer;
+    user-select: none;
+}
+
+li.completed {
+    color: #b6b6b6;
+    text-decoration: line-through;
+}
+
+small {
+    margin-top: 15px;
+    color: rgb(75, 117, 155);
+    opacity: 0.8;
+}
+
+.color1 {
+    border: 2px solid rgb(31, 193, 27);
+}
+.color2 {
+    border: 2px solid rgb(255, 217, 19);
+}
+.color3 {
+    border: 2px solid rgb(255, 156, 85);
+}
+.color4 {
+    border: 2px solid rgb(255, 85, 85);
+}
