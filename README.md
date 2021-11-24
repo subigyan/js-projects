@@ -1,6 +1,6 @@
 # JavaScript Projects
 
-[Project Site](subigyan.github.io/js-projects/)
+[Project Site](https://subigyan.github.io/js-projects/)
 
 ## Github Profiles
 
