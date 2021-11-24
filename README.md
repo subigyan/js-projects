@@ -1,5 +1,7 @@
 # JavaScript Projects
 
+[Project Site](subigyan.github.io/js-projects/)
+
 ## Github Profiles
 
 App that displays profile information of entered username
